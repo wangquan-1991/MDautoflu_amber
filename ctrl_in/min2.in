@@ -1,0 +1,10 @@
+A:initial minimization solvent + ions
+ &cntrl
+   imin=1,
+   maxcyc=7000,
+   ncyc=3000,
+   ntb=1,
+   ntr=0,
+   cut=12.0,
+ /
+

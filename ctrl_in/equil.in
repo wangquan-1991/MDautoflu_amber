@@ -1,0 +1,21 @@
+Constant Pressure 
+&cntrl
+  imin=0,          ! Perform MD
+  irest=1,         ! Restart Calculation
+  ntx=5,           ! Positions and velocities read formatted
+  nstlim=100000,  ! Number of MD steps, 2000000*0.002=4000 ps
+  dt=0.002,        ! Timestep (ps)
+  ntc=2,           ! Shake
+  ntf=2,           ! Shake
+  cut=10.0,        ! Nonbonded cutoff in Angstroms
+  ntb=2,           ! Constant Pressure
+  ntp=1,           ! Isotropic pressure scaling
+  taup=1.0,        ! Pressure relation time
+  ntpr=5000,       ! Write to mdout every ntpr steps
+  ntwx=5000,       ! Write to traj every ntwx steps
+  ntt=3,           ! Langevin thermostat
+  gamma_ln=2.0,    ! Collision Frequency for theromostat
+  temp0=310,    ! Simulation temperature 
+  ig=-1,           ! Random seem for thermostat
+  ntxo=1           ! Write coordinate file in ASCII format
+ /

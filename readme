@@ -1,0 +1,9 @@
+md输入文件放于ctrl_in,可根据需要修改
+电荷可在charge.csv查看
+
+将pdb放入当前目录
+运行python md_pre.py
+
+renova运行
+在renova界面ONLY_COMMAND: 这一行输入
+cd  * ; bash md_analysis.sh
